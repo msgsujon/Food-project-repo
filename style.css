@@ -7,6 +7,46 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* navigationbar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #afacac;
+    
+}
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-link{
+    margin-top: 30px;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 25px 40px;
+    padding: 10px 40px;
+    background-color: rgb(80, 235, 255);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
 /* heading */
 h1{
     font-size: 60px;
@@ -115,3 +155,43 @@ h2{
 .footer-box p{
     color: aliceblue;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+/* social media button */
+.fa-facebook {
+    background: #3fe447;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #136fb1;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .social-media{
+      text-align: center;
+      background-image: linear-gradient(#e1ff5b,tomato);
+  }
+
+  .socialize-icon{
+      margin: 70px 0;
+      text-align: center;
+  }
